@@ -1,0 +1,112 @@
+body {
+	background-color: rgb(255, 255, 255);
+}
+.mainWrapper {
+	margin: 0px auto; width: 950px; display: flex; min-height: 100vh; flex-wrap: wrap;
+}
+.header {
+	width: 100%; height: 280px; position: relative;
+}
+/*.header .logo1 {
+	left: 0px; top: 0px; position: absolute;
+}*/
+
+.header .logo2{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.header .logo1 {
+	left: 140px; top: 20px; position: absolute;
+}
+.header .logo3{
+    position: absolute;
+    top: 19px;
+    left: 320px;
+}
+.titleBar {
+	width: 100%; height: 40px; display: flex; align-items: center; background-image: url("../images/titlebar.png");background-size:100%; background-repeat: no-repeat;
+}
+.titleBar .language {
+	margin: 0px; padding: 4px 0px 0px 35px; color: rgb(0, 0, 0); font-size: 1rem; display: flex; align-items: left;
+}
+.titleBar .language a{
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.titleBar .language a:hover{
+	text-decoration: underline;
+}
+.titleBar .conTitle {
+	margin: 0px; padding: 0px 0px 0px 400px; color: rgb(255, 255, 255); font-size: 1.4rem; display: flex; align-items: left;
+}
+.mainCons {
+	width: 100%; display: flex; min-height: calc(100vh - 705px); background-image: url("../images/bg.png"); background-repeat: repeat-y; background-size: 100%;
+}
+.mainCons .menus {
+	width: 334px; padding-top: 25px; padding-left: 25px;
+}
+.mainCons .menus ul {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 10px;font-size: 1.1rem
+}
+.mainCons .menus ul li {
+	margin-bottom: 15px;
+}
+.mainCons .menus ul li a {
+	color: rgb(22, 22, 22); text-decoration: none;
+}
+.mainCons .menus ul li a:hover {
+	text-decoration: underline;
+}
+.mainCons .menus ul li .curlink {
+	color: rgb(180, 0, 64); text-decoration: underline;
+}
+.mainCons .cons {
+	width: 630px; padding-top: 25px; padding-bottom: 60px;
+}
+.mainCons .cons a {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.mainCons .cons h2 {
+	color: rgb(0, 0, 0); font-size: 1.5rem;text-align: center; margin-bottom: 40px
+}
+.mainCons .cons h1 {
+	color: rgb(15, 66, 117); font-size: 1.2rem;
+}
+.mainCons .cons .txt {
+	margin-right: 32px; margin-bottom: 50px; line-height:2em;
+}
+.mainCons .cons .noteTxt {
+	color: rgb(17, 115, 177);
+}
+.mainCons .cons :last-of-type.txt {
+	margin-bottom: 0px;
+}
+.mainCons .cons .lastupdate {
+	color: rgb(77, 77, 77); font-size: 0.8rem;
+}
+.footer {
+	width: 100%; height: 24px; font-size: 0.6rem; display: flex; align-items: center; align-self: flex-end; background-image: url("../images/footer_bg.png"); background-repeat: no-repeat;
+}
+.footer .copyright {
+	color: rgb(255, 255, 255); padding-left: 320px; margin-right: 50px;
+}
+.footer .prviate {
+	color: rgb(255, 255, 255);
+}
+.footer .prviate ul {
+	margin: 0px; padding: 0px; display: flex;
+}
+.footer .prviate ul li {
+	margin: 0px 0px 0px 20px; padding: 0px;
+}
+.footer .prviate ul li:first-of-type {
+	margin: 0px; padding: 0px;
+}
+.footer .prviate ul li a {
+	color: rgb(255, 255, 255);
+}
+table {
+      border-collapse: collapse; 
+      border-color: #dfe6ec; 
+}
+td{padding: 10px}
